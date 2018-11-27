@@ -24,7 +24,7 @@ function viewCart() {
   } else {
     for (var i = 0; i < cart.length; i++) {
       var price = cart[i][itemPrice];
-      return "In your cart, you have " + cart[i][itemName] + " at " + price;
+      return "In your cart, you have " + cart[i][itemName] + " at " + cart[i][itemPrice];
     }
   }
 }
